@@ -170,6 +170,10 @@ Giga Chad<br/>
 </div>    
 
 
+
+<h1 className='Markit'>This website is made by z3D_x10</h1>
+
+
   </div>
   )
 }
