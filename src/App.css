@@ -224,14 +224,14 @@
 
 
 .checkpoint:nth-child(odd){
-  border-left: 3px solid #a81717;
+  border-left: 3px solid #4e148c;
   padding-left: 3rem;
   transform: translateX(17em);
 }
 
 
 .checkpoint:nth-child(even){
-  border-right: 3px solid #a81717;
+  border-right: 3px solid #4e148c;
   padding-right: 3em;
   transform: translateX(-17em);
 }
@@ -372,5 +372,25 @@
                0  0  120px    #192252,
                0  0  160px    #192252;
 
+
+}
+
+
+
+
+.title:hover{
+  
+  text-shadow: 0  0  10px  #ffffff,
+               0  0  20px    #ffffff;
+               
+               
+}
+
+
+
+.checkpoint:hover  .SUUU{
+
+  text-shadow: 0  0  10px  #59DD7E,
+               0  0  20px    #59DD7E;
 
 }
