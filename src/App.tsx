@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import logo from './assets/1.jpeg'
 import './App.css'
 import logo2 from './assets/3.jpeg'
