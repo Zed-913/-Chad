@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap');
+*{
+  background-color: #faedcd;
+}
+.Nav{
+  font-size:8px;
+  display: flex;
+  padding-left: 600px;
+  margin : 20px;
+  font-family: 'Press Start 2P';
+  font-weight:400;
+  transition :.5s;
+  color:#192252;
+}
+
+
+.Nav h1{
+  margin:10px;
+
+  transition:.5s;
+}
+
+
+
+.Nav .A:hover{
+  padding:0px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #4e148c; /* Add shadow effect */
+
+}
+
+.Nav .B:hover{
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #4e148c; /* Add shadow effect */
+
+}
+
+
+.Nav .C:hover{
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #4e148c; /* Add shadow effect */
+
+}
+
+.Nav .D:hover{
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #4e148c; /* Add shadow effect */
+
+}
+
+.main{
+  display:flex;
+}
+
+.chad{
+  max-width:300px;
+  height:300px;
+  border-radius:8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the image */
+  margin-top :180px;
+  margin-left : 230px;
+  margin-right:70px;
+  transition:  0.3s ease; /* Smooth transition for hover effect */
+  outline: 3px solid #192252; /* Add a stroke to the image */
+  
+}
+
+
+.chad:hover{
+  transform: scale(1.5);
+
+}
+
+
+
+.gigamsg{
+  font-family:'Press Start 2P';
+  margin-top:140px;
+  margin-right:30px;
+  margin-left:30px;
+  transition: margin-left 0.3s ease; /* Smooth transition for hover effect */
+  transition: 0.3s ease;
+  margin-left: 32px;
+  text-align:center;
+}
+
+
+.chad:hover + gigamsg{
+  margin-left:100px;
+  padding-left:100px;
+}
+
+.gigamsg span{
+  color:#a81717;
+}
+
+
+
+.navb{
+  display:flex;
+  font-family:'Press Start 2P';
+}
+
+
+.logs{
+  color:#59DD7E;
+  margin-left:100px;
+  font-size:16px;
+  margin-top:20px;
+  
+}
+
+.logspan{
+  color:#000000;
+}
+
+.scroll{
+  display:flex;
+  margin-top:500px;
+  margin-left:150px;
+  margin-right:50px;
+}
+
+.chad2{
+  margin-right:100px;
+  max-width: 300px;
+  height: 300px;
+  border-radius:8px;
+  outline: 3px solid #192252; /* Add a stroke to the image */
+  transition:  0.3s ease; /* Smooth transition for hover effect */
+
+}
+
+.gigamsg2{
+  text-align:center;
+  margin-right:200px;
+  font-family:'Press Start 2P';
+  margin-left:-40px;
+  margin-top:-40px;
+
+}
+
+
+
+.chad2:hover{
+  transform: scale(1.5);
+  outline: 3px solid #192252; /* Add a stroke to the image */
+
+}
+
+
+
+.gigamsg2 span{
+  color:#a81717;
+}
+
+
+
+.third{
+  margin: 0;
+  font-family: 'Press Start 2P';
+  padding: 2rem;
+
+}
+
+.third::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+
+}
+
+.third{
+  margin-left: 10rem;
+  padding: 0;
+}
+
+
+.title{
+  margin-top: 10rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: -80px;
+}
+
+
+.descr{
+  letter-spacing: 1rem;
+}
+
+
+.timeline{
+  margin: 5em auto;
+  max-width: 34.15em;
+}
+
+.checkpoint{
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+  transition: 0.5s ease;
+
+}
+
+
+
+.checkpoint div {
+  border: 2px solid #192252;
+  border-radius: 1em;
+  padding: 1.5em;
+}
+
+
+.checkpoint li {
+  line-height: 28px;
+}
+
+
+.checkpoint:nth-child(odd){
+  border-left: 3px solid #a81717;
+  padding-left: 3rem;
+  transform: translateX(17em);
+}
+
+
+.checkpoint:nth-child(even){
+  border-right: 3px solid #a81717;
+  padding-right: 3em;
+  transform: translateX(-17em);
+}
+
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before {
+  content: '';
+  background: #192252;
+  width: 30em;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -5;
+}
+
+.checkpoint:nth-child(odd)::before{
+  left: 0;
+}
+
+.checkpoint:nth-child(even)::before{
+  right: 0;
+}
+
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before{
+  content: '';
+  background: #4e148c;
+  box-shadow: 0 0 0.5em #4e148c;
+  width: 0.8em;
+  height: 0.8em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+
+.checkpoint:nth-child(odd) div::before{
+  left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before{
+  right: -0.5em;
+}
+
+
+
+
+@media screen and (max-width:1150px) {
+  .timeline{
+    width: 80vh;
+  }
+
+  .timeline .checkpoint{
+  width: 100%;
+  transform: none;
+  padding-left: 0;
+  pqdding-right: 0;
+  border: none; 
+
+  }
+
+  .timeline .checkpoint::before{
+    width: 3px;
+    height: 4em;
+    top: -2em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline .checkpoint div::before{
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+}
+
+.tr{
+  transition: 1s ease-in-out;
+}
+
+
+.tr:hover{
+  box-shadow: 0 0 20px #4e148c;
+
+  transform: scale(1.2);
+  margin-left: 100px;
+  margin-right: -50px;
+}
+
+
+
+
+.tr2{
+  transition: 1s ease-in-out;
+}
+
+
+.tr2:hover{
+  box-shadow: 0 0 20px #4e148c;
+
+  transform: scale(1.2);
+  margin-left: -50px;
+  margin-right: 100px;
+}
+
+
+
+
+.SUUU{
+  color: #59DD7E;
+}
